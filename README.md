@@ -1,4 +1,5 @@
-# PCeCoS
+[//]: # (# PCeCoS )
+<a href=""><img src="logo.png" width="300" ></a>
 
 **P**rimitive **Ce**lls **Co**lony **S**imulation - 
 very simple simulator of cells colony growth on square nutrient medium.
