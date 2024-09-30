@@ -51,7 +51,7 @@ class Colony:
             idxs_to_eat = random.choice(
                 np.argwhere(surroundings == max_surround) - 1)
 
-            resource_matrix[*(cell_coords + idxs_to_eat)] -= self.feed_rate
+            resource_matrix[(cell_coords + idxs_to_eat)] -= self.feed_rate
 
             self.feed_list[n_cell] += self.feed_rate
 
